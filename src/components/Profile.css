@@ -16,7 +16,7 @@
   
 }
 .AvatarTitle {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.493);
   height: 8vh;
   padding: 2vh;
   color: white;
@@ -42,7 +42,7 @@
   
 }
 .EducationTitle {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.493);;
   height: 8vh;
   padding: 2vh;
   color: white;
@@ -55,7 +55,7 @@
   text-align: center;  
 }
 .SkillsTitle {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.493);;
   height: 8vh;
   padding: 2vh;
   /* margin: 2vh 0; */
@@ -81,6 +81,3 @@ a img {
   justify-content: center;
 
 }
-/* .description p {
-  text-align: justify;
-} */

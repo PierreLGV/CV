@@ -29,10 +29,18 @@ class Profile extends Component {
       {image : 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Antu_bash.svg/2000px-Antu_bash.svg.png', alt : 'Bash'}            
     ],
     educationDiplomas : [
-      {title : 'Wild Code School Paris', year : 'feb - Jul 2018', description : 'Web Developper Javascript - Node-JS - React'},
-      {title : 'Saint-Honoré Training Centre', year : '2014-2015', description : 'State Diploma in Specialized Education and Social Work'},
-      {title : 'Descartes University', year : '2012-2013', description : '3rd year in Human and Social Sciences'},
-      {title : 'Lycee Montaigne', year : '2006', description : 'Baccalaureate in economics and social science'}, 
+      {title : 'Wild Code School Paris', 
+      year : 'feb - Jul 2018', 
+      description : 'Intensive Web Developer program with challenging professional projects, relation with clients, workshops and hackathons focused on Javascript,  NodeJS and ReactJS.'},
+      {title : 'Saint-Honoré Training Centre', 
+      year : '2014-2015', 
+      description : 'State Diploma in Specialized Education and Social Work'},
+      {title : 'Descartes University', 
+      year : '2012-2013', 
+      description : '3rd year in Human and Social Sciences'},
+      {title : 'Lycee Montaigne', 
+      year : '2006', 
+      description : 'Baccalaureate in Economics and Social Sciences'}, 
        
     ],
     
@@ -61,7 +69,7 @@ render () {
             <p>74 rue du commerce</p>
             <p>75015 Paris</p>
             <p>France</p>
-            <p>+33 612021311</p>
+            <p>+33 6 12 02 13 11</p>
             <p>pierrelangev1@gmail.com</p>
           </div>
           <hr/>             
@@ -130,19 +138,22 @@ render () {
         <Card.Group>        
           <Category header='Professionnal Retraining'>
             <p>I started my professionnal career as an educator
-            before I finally found my way in computer programming and web development.</p>
+            before I finally found my way in computer programming. <br/>
+            Since my last former job, I have been learning web development 
+            with full commitment and passion, driven by the need to work with something 
+            I'm really intersted in.
+            </p>
           </Category>
           <Category header='Languages and Capabilities'>
-            <p>English - French (mother tongue)</p>
+            <p>English - French (native)</p>
             <p>Driving Licence</p>
             <p>First Aid Certificate</p>
           </Category>
             <Category header='Interests'> 
-              <p>BackPack Travels, hikes and photography (Japan, Iceland, Grece, Thailand, USA ...)</p>
+              <p>BackPack Travels, hikes and photography</p>
               <p>Listening to music and playing blues harp</p>
-              <p>Sports : Swimming (15 years) Judo (15 years), few years of French Boxing, Taekwando, and Tennis</p>
-              <p>Drawing</p>
-              <p>Reading books, a lot, mostly sci-fi and comics but also some real books for grown-up !</p> 
+              <p>Swimming and Fitness</p>
+              <p>Litterature</p> 
             </Category> 
         </Card.Group>
       </Card>
