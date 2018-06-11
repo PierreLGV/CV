@@ -1,0 +1,86 @@
+.Profile {
+  display: flex;
+  justify-content: center;
+  border:none; 
+  
+}
+.AvatarPicture {
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2vh;
+}
+.Avatar{
+  margin-bottom: 2vh;
+  text-align: center;
+  
+}
+.AvatarTitle {
+  background-color: #222;
+  height: 8vh;
+  padding: 2vh;
+  color: white;
+}
+
+.AvatarTitle h2 {
+  margin: auto;
+}
+.personnalInfosName p, h4, span{
+  text-align: center;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Education {
+  margin-bottom: 2vh;
+  text-align: center;
+  
+}
+.EducationTitle {
+  background-color: #222;
+  height: 8vh;
+  padding: 2vh;
+  color: white;
+}
+.EducationTitle h2 {
+  text-align: center;
+}
+.Skills {
+  margin-bottom: 2vh;
+  text-align: center;  
+}
+.SkillsTitle {
+  background-color: #222;
+  height: 8vh;
+  padding: 2vh;
+  /* margin: 2vh 0; */
+  color: white;
+}
+.SkillsTitle h2 {
+  text-align: center;
+}
+.skillSet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cardIcon {
+height: 70px;
+margin: 1.6vh;
+}
+
+a img {
+  height: 30px;
+  margin: 2vh;
+  display: flex;
+  justify-content: center;
+
+}
+/* .description p {
+  text-align: justify;
+} */

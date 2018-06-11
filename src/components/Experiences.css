@@ -1,0 +1,15 @@
+.ExperiencesTitle {
+  height: 8vh;
+  padding: 2vh;
+  margin: 2vh 0;
+  color: #FFF;
+  background-color: #222;
+}
+.ExperiencesTitle h2 {
+  text-align: center;
+}
+
+.Experiences {
+  display: flex;
+  justify-content: center;
+}
