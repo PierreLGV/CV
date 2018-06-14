@@ -1,6 +1,7 @@
 import React, {Component } from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import './Profile.css';
+import avatarPicture from '../img/avatarPicture.jpeg'
 
 const Category = ({ header, children }) => 
   <Card>
@@ -54,7 +55,7 @@ render () {
         <div className='Avatar'>
           <h2 className='AvatarTitle'>Profile</h2>
         </div>
-      <Image className='AvatarPicture'src='https://dailygeekshow.com/wp-content/uploads/2014/11/lama.jpg' />
+      <Image className='AvatarPicture'src={avatarPicture} />
       <Card.Content className='personnalInfosName'>      
         <Card.Header>
           <h4>Pierre Langevin</h4>
